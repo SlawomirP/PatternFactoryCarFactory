@@ -4,11 +4,13 @@ public abstract class Car {
     private int engineCapacity;
     private String fuelType;
     private int yearOfProduction;
+    private SteringWheelSide sideOfSteeringWheel;
 
-    protected Car(int engineCapacity, String fuelType, int yearOfProduction) {
+     Car(int engineCapacity, String fuelType, int yearOfProduction, SteringWheelSide sideOfSteeringWheel) {
         this.engineCapacity = engineCapacity;
         this.fuelType = fuelType;
         this.yearOfProduction = yearOfProduction;
+        this.sideOfSteeringWheel = sideOfSteeringWheel;
     }
 
     @Override

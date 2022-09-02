@@ -4,11 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c4557dd-631d-4fff-9707-b352988ab6d3" name="Changes" comment="przed interfejsem">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="0c4557dd-631d-4fff-9707-b352988ab6d3" name="Changes" comment="wprowadzenie interfejsu, podzial na samochody z &#10;kierownica po roznych stronach">
+      <change afterPath="$PROJECT_DIR$/src/main/java/CarsFactory/Car/SteringWheelSide.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/CarsFactory/Factories/GeneralFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/CarsFactory/Factories/LeftSideCarFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/CarsFactory/Factories/RightSideCarFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/CarsFactory/Car/BMW.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CarsFactory/Car/BMW.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/CarsFactory/Car/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CarsFactory/Car/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CarsFactory/Factories/BMWFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CarsFactory/Factories/BMWFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CarsFactory/Car/Ford.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CarsFactory/Car/Ford.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CarsFactory/Factories/BMWFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CarsFactory/Factories/FordFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CarsFactory/MainApp/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CarsFactory/MainApp/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +53,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="CarsFactory.Car" />
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -98,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662053668920</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="wprowadzenie interfejsu, podzial na samochody z &#10;kierownica po roznych stronach">
+      <created>1662122705642</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1662122705642</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -114,6 +128,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="przed interfejsem" />
-    <option name="LAST_COMMIT_MESSAGE" value="przed interfejsem" />
+    <MESSAGE value="wprowadzenie interfejsu, podzial na samochody z &#10;kierownica po roznych stronach" />
+    <option name="LAST_COMMIT_MESSAGE" value="wprowadzenie interfejsu, podzial na samochody z &#10;kierownica po roznych stronach" />
   </component>
 </project>
